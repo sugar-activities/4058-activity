@@ -1,0 +1,51 @@
+39
+Handle API chages in 8.2
+Use gnomevfs and not gio
+
+37
+Fixed log updating
+removed obsolete files
+
+35
+Fixed some conflicts with Rainbow - new activity now works.
+
+34
+uses new bundlebuilder, save and MANIFEST radically more stable
+many fixes
+
+33
+fixed icons, fixed ignore-case, refactored search options (pass in 
+object rather than half-dozen options)
+
+32
+find/replace done, with accelerators. Known bugs:
+-Double log tab (understood, just haven't got around to fixing)
+-F8 doesn't work within text views (workaround: F5 first. problem with wm)
+-ignore-case half-implemented
+-WARNING WARNING WARNING - has been known to cause journal to empty. Don't panic - your old journal still exists in ~/.sugar/default/datastoreXYZXYZXX. Still, it is a royal pain in the ***. Have not understood what's happening yet.
+-Only "open" works in initial dialog (old code, needs cleanup)
+
+31
+uses .xo file format
+
+24
+find selects ranges, selecting a tab selects it in the sidebar, sidebar scrollbar on left for Fitt's law.
+gtksourceview now bundled, allows running in arbitrary sugar-jhbuild.
+
+23
+new lazily loaded sidebar, can open an external file, create new activities
+
+22
+tabbed editor and added a file menu
+
+21
+support for jhbuild (thanks to Mike Fletcher) and is refactored a bit
+
+20
+undo/redo, and find
+
+19
+I don't remember
+
+18
+initial release, based on pippy

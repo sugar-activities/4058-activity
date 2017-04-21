@@ -1,0 +1,15 @@
+PENDING
+
+* In logviewer.py, there are comments referencing activities (copy/pasted code)
+
+* Icons to "show sources" and "show log" buttons.
+
+* File operations (add file, add dir, delete file, delete dir) are using file choser.
+  want implement these operations here? Now are commented.
+
+* The clone capability is in sugar src/jarabe/view/customizebundle.py
+  Probably should be moved to sugar-toolkit.
+
+* Change the background (maybe grey) in the log files to show they are read only.
+
+* Add gtk3 new activity template
